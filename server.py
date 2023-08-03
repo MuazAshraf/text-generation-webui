@@ -1082,9 +1082,9 @@ def create_interface():
     shared.gradio['interface'].queue()
     with OpenMonkeyPatch():
         if shared.args.listen:
-            shared.gradio['interface'].launch(prevent_thread_lock=True, share=True, server_name='0.0.0.0', server_port=7861, inbrowser=shared.args.auto_launch, auth=auth)
+            shared.gradio['interface'].launch(prevent_thread_lock=True, share=True, server_name='0.0.0.0', server_port=7860, inbrowser=shared.args.auto_launch, auth=auth)
         else:
-            shared.gradio['interface'].launch(prevent_thread_lock=True, share=True, server_port=7861, inbrowser=shared.args.auto_launch, auth=auth)
+            shared.gradio['interface'].launch(prevent_thread_lock=True, share=True, server_port=7860, inbrowser=shared.args.auto_launch, auth=auth)
 
 
 if __name__ == "__main__":
