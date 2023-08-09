@@ -22,7 +22,7 @@ refresh_symbol = '🔄'
 delete_symbol = '🗑️'
 save_symbol = '💾'
 
-theme = gr.themes.Default(
+theme = gr.Default(
     font=['Helvetica', 'ui-sans-serif', 'system-ui', 'sans-serif'],
     font_mono=['IBM Plex Mono', 'ui-monospace', 'Consolas', 'monospace'],
 ).set(
